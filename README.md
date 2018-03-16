@@ -1,17 +1,23 @@
 # jupyter_notebook_i18n
+
 Implementation Notes for Internationalization of Jupyter Notebook, Chinese Language
 
  According the Following guide, it works well.
+
+![edit_UI](notebook_chinese_UI.png)
+
+![help_UI](notebook_chinese_help.png)
  
  The simple way, copy this three files in notebook/i18n/zh_CN/LC_MESSAGES/, then start jupyter notebook:
  * notebook.mo
  * nbui.mo
  * nbjs.json
- 
- I modified some translate words in Chinese language. 
- 
+
+ I modified some translate words in Chinese language.
+
+
  ---
- 
+
 # [Implementation Notes for Internationalization of Jupyter Notebook](https://github.com/jupyter/notebook/blob/master/notebook/i18n/README.md)
 
 The implementation of i18n features for jupyter notebook is still a work-in-progress:
@@ -142,4 +148,3 @@ I hope to get this working at some point in the near future.
 
 
 Any questions or comments please let me know @JCEmmons on github (emmo@us.ibm.com)
-
